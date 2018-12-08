@@ -21,17 +21,17 @@ public class StudentPojo {
 	
 	@NotBlank   //This annotation is used for validation while saving the record.Not blank means not null(null) notempty("  ")and not blank("").
 	//@Email
-	@Pattern(regexp="^[A-Z a-z][A-Z a-z 0-9]{5,20}@[A-Z a-z]{3,10}\\.[a-z]{2,8}$")
+	//@Pattern(regexp="^[A-Z a-z][A-Z a-z 0-9]{5,20}@[A-Z a-z]{3,10}\\.[a-z]{2,8}$")
 	private String name; 
 	
 	
 	private Integer age;
 	
-	@Length(max=10)
+	//@Length(max=10)
 	//@Pattern(regexp="^[0-9]{8}$")
 	//@Pattern(regexp="^[A-Z][0-9]{7}$")
 	//@Pattern(regexp="^[A-Z]{2}-[0-9]{13}$")
-	@Pattern(regexp="^[A-Z]{5}[0-9]{4}[A-Z]$")
+	//@Pattern(regexp="^[A-Z]{5}[0-9]{4}[A-Z]$")
 	private String qual;
 	
 	

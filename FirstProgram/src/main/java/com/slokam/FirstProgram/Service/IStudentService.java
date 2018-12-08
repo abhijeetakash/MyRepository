@@ -17,5 +17,9 @@ public interface IStudentService {
 	
 	
 	public void deleteStudent(StudentPojo student);
+	
+	public List<StudentPojo> getData(String name, Integer age);
+	
+	public List<StudentPojo> getStudentByPage(Integer pageNo, Integer pageSize);
 
 }

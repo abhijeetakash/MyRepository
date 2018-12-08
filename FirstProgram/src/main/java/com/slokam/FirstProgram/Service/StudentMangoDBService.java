@@ -42,5 +42,17 @@ Logger logger = Logger.getLogger(StudentService.class);
 	    
 	}
 
+	@Override
+	public List<StudentPojo> getData(String name, Integer age) {
+	
+		return null;
+	}
+
+	@Override
+	public List<StudentPojo> getStudentByPage(Integer pageNo, Integer pageSize) {
+		
+		return null;
+	}
+
 
 }
