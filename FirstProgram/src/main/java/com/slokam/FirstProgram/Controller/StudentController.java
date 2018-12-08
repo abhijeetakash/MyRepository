@@ -56,7 +56,7 @@ public class StudentController {
 		if(student != null)
 		{
 			logger.debug("Data available for id::"+id);
-		
+		    System.out.println("For git");
 			responseEntity = new ResponseEntity<>(student,HttpStatus.OK);
 		}
 		else
